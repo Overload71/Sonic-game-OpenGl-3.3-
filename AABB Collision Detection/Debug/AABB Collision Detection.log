@@ -1,0 +1,41 @@
+﻿Build started 11/05/2015 02:20:05 PM.
+     1>Project "C:\Users\Ga3FaR\Desktop\GFX15_Lab10_CollisionDetection-33\GFX15_Lab10_CollisionDetection-master\AABB Collision Detection\AABB Collision Detection\AABB Collision Detection.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 13.0\VC\bin\CL.exe /c /I"C:\Users\Ga3FaR\Desktop\GFX15_Lab10_CollisionDetection-33\GFX15_Lab10_CollisionDetection-master\AABB Collision Detection\AABB Collision Detection\\" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Renderer\Renderer.cpp
+         Renderer.cpp
+     1>c:\users\ga3far\desktop\gfx15_lab10_collisiondetection-33\gfx15_lab10_collisiondetection-master\aabb collision detection\aabb collision detection\rings.h(7): warning C4584: 'Rings' : base-class 'CollidableModel' is already a base-class of 'Model3D'
+                 c:\users\ga3far\desktop\gfx15_lab10_collisiondetection-33\gfx15_lab10_collisiondetection-master\aabb collision detection\aabb collision detection\collisiondetection\collidablemodel.h(9) : see declaration of 'CollidableModel'
+                 c:\users\ga3far\desktop\gfx15_lab10_collisiondetection-33\gfx15_lab10_collisiondetection-master\aabb collision detection\aabb collision detection\scene\model3d.h(21) : see declaration of 'Model3D'
+     1>c:\users\ga3far\desktop\gfx15_lab10_collisiondetection-33\gfx15_lab10_collisiondetection-master\aabb collision detection\aabb collision detection\renderer\renderer.cpp(208): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ga3far\desktop\gfx15_lab10_collisiondetection-33\gfx15_lab10_collisiondetection-master\aabb collision detection\aabb collision detection\renderer\renderer.cpp(283): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ga3far\desktop\gfx15_lab10_collisiondetection-33\gfx15_lab10_collisiondetection-master\aabb collision detection\aabb collision detection\renderer\renderer.cpp(284): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 13.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ga3FaR\Desktop\GFX15_Lab10_CollisionDetection-33\GFX15_Lab10_CollisionDetection-master\AABB Collision Detection\Debug\Collision.exe" /INCREMENTAL /NOLOGO opengl32.lib glew32.lib glfw3.lib assimp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ga3FaR\Desktop\GFX15_Lab10_CollisionDetection-33\GFX15_Lab10_CollisionDetection-master\AABB Collision Detection\Debug\Collision.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ga3FaR\Desktop\GFX15_Lab10_CollisionDetection-33\GFX15_Lab10_CollisionDetection-master\AABB Collision Detection\Debug\Collision.lib" /MACHINE:X86 Debug\ApplicationManager.obj
+         Debug\AABoundingBox.obj
+         Debug\CollidableModel.obj
+         Debug\CollisionManager.obj
+         Debug\Cube.obj
+         Debug\EulerCamera.obj
+         Debug\GameObject.obj
+         Debug\KeyFrameAnimationShader.obj
+         Debug\ShaderProgram.obj
+         Debug\Hero.obj
+         Debug\main.obj
+         Debug\md2model.obj
+         Debug\vertexBufferObject.obj
+         Debug\Model.obj
+         Debug\Renderer.obj
+         Debug\Rings.obj
+         Debug\Model3D.obj
+         Debug\ModelNode.obj
+         Debug\TexturedModel.obj
+         Debug\shader.obj
+         Debug\stb_image.obj
+         Debug\texture.obj
+         Debug\ThirdPersonCamera.obj
+         AABB Collision Detection.vcxproj -> C:\Users\Ga3FaR\Desktop\GFX15_Lab10_CollisionDetection-33\GFX15_Lab10_CollisionDetection-master\AABB Collision Detection\Debug\Collision.exe
+     1>Done Building Project "C:\Users\Ga3FaR\Desktop\GFX15_Lab10_CollisionDetection-33\GFX15_Lab10_CollisionDetection-master\AABB Collision Detection\AABB Collision Detection\AABB Collision Detection.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.87
